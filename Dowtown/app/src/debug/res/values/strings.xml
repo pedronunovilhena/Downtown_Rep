@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">Dowtown1000</string>
+    <string name="app_id">448873148638221</string>
     <string name="title_activity_maps">Splash</string>
     <string name="title_activity_main__menu">Main_Menu</string>
     <string name="hello_world">Hello world!</string>

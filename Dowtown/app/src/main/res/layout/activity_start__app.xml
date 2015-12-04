@@ -34,6 +34,14 @@
             android:background="@drawable/button_fb_gb"
             style="@style/ButtonText"
             />
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.pedronunovilhena.downtown_1000.FacebookFragment"
+            android:id="@+id/fragment"
+            android:layout_gravity="center_horizontal" />
+
         <Button
             android:id="@+id/btnNoLogin"
             android:onClick="showStoryRules"
