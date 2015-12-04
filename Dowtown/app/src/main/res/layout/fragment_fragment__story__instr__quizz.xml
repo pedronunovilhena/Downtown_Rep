@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="10dp"
+      android:layout_margin="10dp"
+      android:background="@drawable/linearlayout_bg"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="200dp"
+      android:layout_weight="3.28"
+        android:orientation="horizontal"
+        >
+
+      <Button
+          android:id="@+id/Play_Start"
+          android:onClick="Play"
+          android:layout_width="220dp"
+          android:layout_height="match_parent"
+          android:padding="40dp"
+          android:layout_marginBottom="20dp"
+          android:layout_margin="10dp"
+          android:layout_alignParentTop="true"
+          android:text="Play"
+          android:background="@drawable/button_transparency_blue"
+          style="@style/ButtonText"
+          />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/linearlayout_bg"
+        android:color="#99000000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:weightSum="1">
+
+
+        <Button
+            android:id="@+id/btnFb"
+            android:onClick="showStory"
+            android:layout_width="match_parent"
+            android:layout_height="272dp"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="4dp"
+            android:layout_alignParentTop="true"
+            android:text="Story "
+            android:background="@drawable/button_fb_gb"
+            style="@style/ButtonText" />
+        <Button
+            android:id="@+id/btnNoLogin"
+            android:onClick="showInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:text="Instructions"
+            style="@style/ButtonText"
+            android:background="@drawable/button_nologin_gb" />
+    </LinearLayout>
+
+ </LinearLayout>
+
+</LinearLayout>

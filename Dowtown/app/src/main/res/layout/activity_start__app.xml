@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pedronunovilhena.downtown_1000.Start_App"
+
+    android:background="@drawable/background_teste">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:background="@drawable/linearlayout_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp">
+
+
+        <Button
+            android:id="@+id/btnFb"
+            android:onClick="loginFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="4dp"
+            android:layout_alignParentTop="true"
+            android:text="Login with Facebook
+            "
+            android:background="@drawable/button_fb_gb"
+            style="@style/ButtonText"
+            />
+        <Button
+            android:id="@+id/btnNoLogin"
+            android:onClick="showStoryRules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="4dp"
+            android:layout_alignParentBottom="true"
+            android:text="Continue without Login
+            "
+            style="@style/ButtonText"
+            android:background="@drawable/button_nologin_gb"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
